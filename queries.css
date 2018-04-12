@@ -9,50 +9,16 @@
 
 */
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
-body {
-    margin: 0;
-}
+/***** MOBILE QUERY *****/
 
-html {
-    font-family: 'Lato', 'Arial', sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-    text-rendering: optimizeLegibility;
-    box-sizing: border-box;
-}
+@media screen and (max-width: 600px) {
 
-
-.row {
-    max-width: 1140px;
-    margin: 0 auto;
-}
-
-div {
-    display: block;
-}
-
-.clearfix {
-    zoom: 1
-}
-
-.clearfix:after {
-    content: '.';
-    clear: both;
-    display: block;
-    height: 0;
-    visibility: hidden;
-}
 
 header {
-    margin-top: 20px;
     margin-bottom: 5px;
-    padding-bottom: 5px
+    padding-bottom: 5px;
+    max-width: 100%;
 }
 
 header a {
@@ -99,19 +65,7 @@ h3 {
 /***** SOCIAL *****/
 
 .social {
-    display: block;
-}
-
-.social li {
-    display: inline-block;
-    float: right;
-    padding: 5px 15px;
-    order: reverse;
-}
-
-.social img {
-    width: 20px;
-    height: auto;
+    display: none;
 }
 
 
@@ -122,6 +76,7 @@ nav {
 }
 
 .mainNav {
+    display: none;
     float: right;
     list-style: none;
     margin-top: 27.5px;
@@ -158,15 +113,13 @@ nav {
 /***** HERO *****/
 
 .hero {
-}
-
-.heroText {
-    margin-top: 130px;
+    max-width: 100%;
+    background-color: #0CAADC;
 }
 
 #heroText {
     text-transform: uppercase;
-    font-size: 300%;
+    font-size: 200%;
 }
 
 .hero p {
@@ -180,11 +133,14 @@ nav {
 /***** ADVANTAGE RIB *****/
 
 .AdvantageRib {
-    padding-left: 30px;
+    padding-left: 20px;
+    max-width: 100%;
 }
 
-.AdvantageRib h1 {
-    
+.AdvantageRib p {
+    padding: 10px;
+    margin: 10px 0px;
+    max-width: 100%;
 }
 
 
@@ -330,5 +286,3 @@ nav {
     text-decoration: none;
     color: #0CAADC;
 }
-
-
