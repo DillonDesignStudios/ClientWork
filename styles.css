@@ -191,10 +191,6 @@ nav {
 
 
 
-
-
-
-
 /***** ABOUT US *****/
 
 .about {
@@ -331,4 +327,145 @@ nav {
     color: #0CAADC;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+/***** MOBILE QUERY *****/
+
+@media screen and (max-width: 600px) {
+
+
+header {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    max-width: 100%;
+}
+
+header a {
+    text-decoration: none;
+    color: #575757;
+}
+
+section {
+    padding: 80px 0;
+}
+    
+
+/***** SOCIAL *****/
+
+.social {
+    display: none;
+}
+
+
+/***** MAIN NAV *****/
+
+nav {
+    background-color: #fff;
+}
+
+.mainNav {
+    display: none;
+    float: right;
+    list-style: none;
+    margin-top: 27.5px;
+    padding: 0 10px;
+}
+
+.mainNav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.mainNav li a {
+    color: #575757;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 100%;
+}
+
+.mainNav li a:hover {
+    color: #0caadc;
+    transition: color 1s;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+
+/***** HERO *****/
+
+.hero {
+    max-width: 100%;
+    background-color: #0CAADC;
+}
+
+#heroText {
+    text-transform: uppercase;
+    font-size: 200%;
+}
+
+.hero p {
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+
+
+
+/***** ADVANTAGE RIB *****/
+
+.AdvantageRib {
+    padding-left: 20px;
+    max-width: 100%;
+}
+
+.AdvantageRib p {
+    padding: 10px;
+    margin: 10px 0px;
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/***** ABOUT US *****/
+
+
+    
+    
+    
+/***** EVENTS *****/
+
+
+
+
+
+/***** BOTTOM CONTACT *****/
+
+
+
+
+
+/***** FOOTER *****/
 
