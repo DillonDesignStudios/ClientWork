@@ -8,14 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="grid.css">
-    <!--<link rel="stylesheet" type="text/css" href="styles.css">-->
-    <link rel="stylesheet" type="text/css" href="queries.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,700" rel="stylesheet">
 </head>
 
 <body>
 
     <header>
+        <div class="sticky">
         <div class="row">
             <ul class="social">
                 <li><a href="#"><img src="img/liLogo.png"></a></li>
@@ -25,26 +25,30 @@
             </ul>
         </div>
 
-
-        <img src="img/logo.png" alt="sig logo" class="logo">
+        
+        <div class="row"><img src="img/logo.png" alt="sig logo" class="logo">
+            <button class="jsMenu button">&#9776;</button></div>
         <nav>
             <div class="row">
-                <ul class="mainNav">
+                <ul class="mainNav jsNav">
                     <li><a href="#"><img src="img/ARLogoBig.png"></a></li>
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Events</a></li>
                 </ul>
             </div>
         </nav>
+        </div>
     </header>
 
+     
     <section class="hero heroMobile">
-        <div class="row heroText">
+        <img src="img/golfer3DBG.jpg" class="heroImage">
+        <div class="row heroText">                    
             <p id="heroText">
                 Rib fracture care <br> <strong>elevated</strong>
             </p>
             <p>
-                Thoracoscopic rib plating system for minimally <br> invasive fixation
+                Thoracoscopic rib plating system for minimally invasive fixation
             </p>
         </div>
     </section>
@@ -111,15 +115,6 @@
                 </p>
             </div>
 
-            <div class="contact">
-                <h2>Contact</h2>
-                <p>
-                    <span>Call: </span> <br> &#40;717&#41; 553-2021<br><br>
-                    <span>Email: </span> <br> <a href="mailto:customerservice@sigmedical.net"> customerservice@sigmedical.net</a><br><br>
-                    <span>Location: </span> <br> 238 East Chocolate Ave <br> Suite 2 <br> Hershey, PA 17033
-                </p>
-            </div>
-
             <div class="follow">
                 <h2>Follow</h2>
                 <ul>
@@ -127,6 +122,15 @@
                     <li><a href="#">FaceBook</a></li>
                     <li><a href="#">LinkedIn</a></li>
                 </ul>
+            </div>
+
+            <div class="contact">
+                <h2>Contact</h2>
+                <p>
+                    <span>Call: </span> <br> &#40;717&#41; 553-2021<br><br>
+                    <span>Email: </span> <br> <a href="mailto:customerservice@sigmedical.net"> customerservice@sigmedical.net</a><br><br>
+                    <span>Location: </span> <br> 238 East Chocolate Ave <br> Suite 2 <br> Hershey, PA 17033
+                </p>
             </div>
         </div>
     </section>
@@ -146,9 +150,34 @@
 
 
 
-
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    
+    <script>
+        $(document).ready(function(){
+            $(".jsMenu").on("click", function(){
+            $(".jsNav").slideToggle();
+            })
+            
+            
+            
+            
+        })
+    </script>
 
 
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
