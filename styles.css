@@ -629,6 +629,9 @@ header {
         margin-bottom: 20px;
     }
 
+    .ribPics {
+        display: inline-block;
+    }
 
 
     /***** ABOUT US *****/
