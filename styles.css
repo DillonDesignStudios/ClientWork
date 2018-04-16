@@ -160,6 +160,10 @@ header {
     padding-right: 20px;
 }
 
+.ribPics img {
+    display: none;
+    padding-right: 10px;
+}
 
 
 
@@ -296,7 +300,7 @@ header {
 
 .botContact {
     padding: 0px 20px;
-    background-image: linear-gradient( rgba(12, 170, 220, 0.6), rgba(12, 170, 220, 0.6)), url(img/cloudsColor.jpg);
+    background-image: linear-gradient( rgba(12, 170, 220, 0.6), rgba(12, 170, 220, 0.6)), url(img/clouds2.jpg);
     padding-bottom: 20px;
 }
 
@@ -309,6 +313,20 @@ header {
 
 .links {
     float: left;
+}
+
+.links li {
+    
+    list-style: none;
+}
+
+.links li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.links li a:hover {
+    color: #575757;
 }
 
 .links h2,
@@ -346,6 +364,10 @@ header {
 .follow li a {
     text-decoration: none;
     color: #fff;
+}
+
+.follow li a:hover {
+    color: #575757;
 }
 
 
@@ -393,7 +415,9 @@ header {
 
 
 
-@media screen and (min-width: 801px) {
+
+
+@media screen and (min-width: 1024px) {
 
 
 
@@ -454,7 +478,7 @@ header {
     h2:after {
         display: block;
         height: 2px;
-        background-color: #0CAADC;
+        background-color: #575757;
         content: " ";
         width: 100px;
         margin: 0 auto;
@@ -481,6 +505,7 @@ header {
         display: inline-block;
         float:right;
         margin-top: 20px;
+        margin-bottom: -25px;
     }
 
     .social li {
@@ -531,6 +556,7 @@ header {
 
     .mainNav img {
         height: 40px;
+        
     }
 
     .logo {
@@ -556,10 +582,10 @@ header {
     .heroText {
         margin-top: 130px;
         margin-bottom: 130px;
-        margin-left: 5%;
         position: absolute;
         top: 0;
         bottom: 0;
+        font-size: 85%;
     }
 
     #heroText {
@@ -760,13 +786,34 @@ header {
         color: #0CAADC;
     }
 
-
-
-
-
-
-
-
-
-
 }
+
+
+
+@media screen and (min-width: 1440px) {
+    
+    .heroText {
+        padding-left: 7rem;
+        margin-top: 155px;
+    }
+    
+    #heroText {
+        font-size: 300%;
+        width: 700px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

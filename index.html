@@ -10,40 +10,41 @@
     <link rel="stylesheet" type="text/css" href="grid.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 </head>
 
 <body>
 
     <header>
         <div class="sticky">
-        <div class="row">
-            <ul class="social">
-                <li><a href="#"><img src="img/liLogo.png"></a></li>
-                <li><a href="#"><img src="img/fbLogo.png"></a></li>
-                <li><a href="#"><img src="img/twitterLogo.png"></a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-
-        
-        <div class="row"><img src="img/logo.png" alt="sig logo" class="logo">
-            <button class="jsMenu button">&#9776;</button></div>
-        <nav>
             <div class="row">
-                <ul class="mainNav jsNav">
-                    <li><a href="#"><img src="img/ARLogoBig.png"></a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Events</a></li>
+                <ul class="social">
+                    <li><a href="#"><img src="img/liLogo.png"></a></li>
+                    <li><a href="#"><img src="img/fbLogo.png"></a></li>
+                    <li><a href="#"><img src="img/twitterLogo.png"></a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </div>
-        </nav>
+
+
+            <div class="row"><img src="img/logo.png" alt="sig logo" class="logo">
+                <button class="jsMenu button">&#9776;</button></div>
+            <nav>
+                <div class="row">
+                    <ul class="mainNav jsNav">
+                        <li><a href="#"><img src="img/ARLogoBig.png"></a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Events</a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
     </header>
 
-     
+
     <section class="hero heroMobile">
         <img src="img/golfer3DBG.jpg" class="heroImage">
-        <div class="row heroText">                    
+        <div class="row heroText">
             <p id="heroText">
                 Rib fracture care <br> <strong>elevated</strong>
             </p>
@@ -70,6 +71,15 @@
             <p>
                 <strong>AdvantageRib</strong> Plating System consists of a pre-assembled stability plate with threaded locking posts, and locking caps inteded for the minimally invasive thoracoscopic fixation and stabilization of ribs. The implants are manufactured from titanium &#40;CPTi4&#41; and titanium alloy &#40;Ti-6A1-7Nb&#41;.
             </p>
+        </div>
+        
+        <div class="row">
+            <div class="ribPics">
+                <img src="img/picOne.PNG">
+                <img src="img/picTwo.PNG">
+                <img src="img/picThree.PNG">
+                <img src="img/picFour.PNG">
+            </div>
         </div>
     </section>
 
@@ -110,9 +120,11 @@
         <div class="row">
             <div class="links">
                 <h2>Links</h2>
-                <p>
-                    AdvantageRib<br> About Us<br> Events
-                </p>
+                <ul>
+                    <li><a href="#">AdvantageRib</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Events</a></li>
+                </ul>
             </div>
 
             <div class="follow">
@@ -150,20 +162,17 @@
 
 
 
-<script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
     <script>
-        $(document).ready(function(){
-            $(".jsMenu").on("click", function(){
-            $(".jsNav").slideToggle();
+        $(document).ready(function() {
+            $(".jsMenu").on("click", function() {
+                $(".jsNav").slideToggle();
             })
-            
-            
-            
-            
+
+
+
+
         })
     </script>
 
@@ -171,13 +180,3 @@
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
